@@ -69,6 +69,7 @@ export default function Home() {
         <a href={API_URL} target="_blank" rel="noopener noreferrer">
           Open YouTube and explore 🚀
         </a>
+        <p>Random text</p>
 
         <Button appName="docs">Open alert</Button>
       </main>
