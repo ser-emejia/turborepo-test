@@ -64,7 +64,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <p>{TEST}</p>
+        <p>{TEST ? TEST : "No test"}</p>
 
         <a href={API_URL} target="_blank" rel="noopener noreferrer">
           Open youtube
