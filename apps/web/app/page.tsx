@@ -69,6 +69,7 @@ export default function Home() {
         >
           Descubre a Yomif Kejelcha
         </a>
+        <p>Hola mundo!</p>
         <Button appName="web">Open alert</Button>
       </main>
       <footer className={styles.footer}>
