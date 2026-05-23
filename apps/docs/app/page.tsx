@@ -18,6 +18,8 @@ const ThemeImage = (props: Props) => {
   );
 };
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -61,6 +63,11 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+
+        <a href={API_URL} target="_blank" rel="noopener noreferrer">
+          Open youtube
+        </a>
+
         <Button appName="docs">Open alert</Button>
       </main>
       <footer className={styles.footer}>
