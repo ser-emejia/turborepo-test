@@ -19,6 +19,7 @@ const ThemeImage = (props: Props) => {
 };
 
 const API_URL = process.env.NEXT_PUBLIC_API_URL;
+const TEST = process.env.NEXT_PUBLIC_TEST;
 
 export default function Home() {
   return (
@@ -63,6 +64,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        <p>{TEST}</p>
 
         <a href={API_URL} target="_blank" rel="noopener noreferrer">
           Open youtube
